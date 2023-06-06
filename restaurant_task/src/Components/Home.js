@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Order from "./Order";
 
 
 function Home(){
@@ -19,7 +18,7 @@ function Home(){
             </div>
         </div>
     
-     <Order />
+    
         </>
 
     );

@@ -2,6 +2,7 @@ import './App.css';
 import Layout from './Components/Layout';
 import Home from './Components/Home';
 import Card from './Components/Card';
+import Order from './Components/Order';
 
 import {  BrowserRouter , Routes, Route } from 'react-router-dom';  
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path='/' element={<Layout />}>
             <Route index element={<Home />}></Route>
             <Route path="card" element={<Card />}></Route>
+            <Route path="order" element={<Order />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
